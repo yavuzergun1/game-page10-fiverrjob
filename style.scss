@@ -25,7 +25,7 @@ body{
     }
 }
 .first{
-    width: 60%;
+    width: 70%;
     height: 70px;
     display: flex;
     align-items: center;
@@ -42,11 +42,8 @@ p{
 }
 .second{
     @extend .first;
-    img{
-        width: 80px;
-    }
-    p span{
-        background-color: white;
+    p{
+        width: 150px;
     }
 }
 .quantity{
@@ -54,7 +51,7 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: .8rem;
-    width: 80px;
+    width: 100px;
     height: 20px;
     border-radius: 13px;
     text-align: center;
@@ -63,6 +60,9 @@ p{
 }
 .third{
     @extend .first;
+     p{
+        width: 115px;
+    }
 }
 .fourth{
     @extend .first;
